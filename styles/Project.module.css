@@ -1,0 +1,193 @@
+.single {
+    padding: 3px 16px;
+    background: #fff;
+    display: block;
+    margin: 20px 10px;
+    border-left: 8px solid #fff;
+  }
+  .single:hover {
+    border-left: 8px solid #4979ff;
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    /* margin: auto; */
+    text-align: center;
+    font-family: arial;
+    height: 490px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .pagetitle {
+    color: #333;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .icon {
+    margin: 24px 0;
+  }
+  
+  .fa {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .button:hover, .fa:hover {
+    opacity: 0.7;
+  }
+
+  .flipcard {
+    background-color: transparent;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+  }
+  
+  .flipcardinner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flipcard:hover .flipcardinner {
+    transform: rotateY(180deg);
+    
+  }
+  
+  .flipcardfront, .flipcardback {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+  }
+  
+  .flipcardfront {
+    /* background-color: white; */
+    color: black;
+  }
+  
+  .flipcardback {
+    background-color: black;
+    color: #f2f2f2;;
+    transform: rotateY(180deg);
+  }
+
+  .mainwrap {
+    display: flex;
+  }
+
+  .mainwrap1 {
+    display: flex;
+    /* margin: 20px; */
+  }
+
+  .mainwrap2 {
+    flex-flow: column wrap;
+    margin: 10px;
+  }
+
+  .cardtitle {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 110px 0px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .container1 {
+    margin-right: 5px;
+  }
+
+  .flipcardportfolio {
+    background-color: transparent;
+    width: 320px;
+    height: 550px;
+    perspective: 1000px;
+    margin: 20px 75px;
+  }
+  
+  .flipcardinnerportfolio {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flipcardportfolio:hover .flipcardinnerportfolio {
+    transform: rotateY(180deg);
+    
+  }
+  
+  .flipcardfrontportfolio, .flipcardbackportfolio {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+  }
+  
+  .flipcardfrontportfolio {
+    /* background-color: white; */
+    color: black;
+  }
+  
+  .flipcardbackportfolio {
+    background-color: black;
+    color: #f2f2f2;;
+    transform: rotateY(180deg);
+    
+  }
+  .btn {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #4979ff;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+  }
