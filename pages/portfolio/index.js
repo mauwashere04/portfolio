@@ -116,10 +116,12 @@ const Projects = () => {
                                 <Image src="/carportal.png" width={320} height={300}/>
                                 <h1 className={styles.cardtitleportfolio}>Car Website </h1>
                              
-                            <p>I developed this school website where users 
-                                can enroll in the courses that are offered by the school. 
-                                Users can also view the teachers, founders, and more information 
-                                about the school and its courses. </p> 
+                            <p>I developed this portal that can be accessed
+                                by both admin and users. The users can list their car 
+                                in the portal, update their information, and search 
+                                for cars that are listed in the portal. The admins can 
+                                access the database for all the cars and users within the
+                                portal and can delete or update their information. </p> 
                                 </div>
                                 <div className={styles.flipcardbackportfolio}>
                                 

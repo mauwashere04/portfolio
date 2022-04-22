@@ -59,7 +59,7 @@ const About = () => {
                                 <p>Don Bosco Technology Center</p> 
 
                                 <h1>High School</h1> 
-                                <p>La Salle Green Hills High School</p>
+                                <p>La Salle Green Hills</p>
                                 
                                 <h1>Higher Education</h1> 
                                 <p>Lithan Academy Pvt. Ltd.</p>
