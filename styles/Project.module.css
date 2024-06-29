@@ -116,7 +116,8 @@
 
   .mainwrap1 {
     display: flex;
-    /* margin: 20px; */
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .mainwrap2 {
@@ -197,5 +198,9 @@
   @media (max-width: 950px) {
     .card {
       margin-right: 0;
+    }
+    
+    .mainwrap1 {
+      margin-bottom: 10px;
     }
   }
