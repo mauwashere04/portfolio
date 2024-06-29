@@ -110,6 +110,8 @@
 
   .mainwrap {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .mainwrap1 {
@@ -190,4 +192,10 @@
     border-radius: 4px;
     color: white;
     text-align: center;
+  }
+
+  @media (max-width: 950px) {
+    .card {
+      margin-right: 0;
+    }
   }
